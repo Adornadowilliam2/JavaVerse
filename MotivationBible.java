@@ -113,6 +113,7 @@ public class MotivationBible {
                 System.out.println("Exit the Program..");
                 break;
                 default:
+                    System.out.println("Please choose between these two");
                     break;
             }
         }while(choices !=2);
