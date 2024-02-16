@@ -61,8 +61,21 @@ public class MotivationBible {
             "Genesis 1:9 - \"And God said, Let the waters under the heaven be gathered together unto one place, and let the dry land appear: and it was so.\"",
             "Genesis 1:10 - \"And God called the dry land Earth; and the gathering together of the waters called he Seas: and God saw that it was good.\""
         };
+        String[] Peter = {
+            "1 Peter 2:9 - 'But you are a chosen people, a royal priesthood, a holy nation, God’s special possession, that you may declare the praises of him who called you out of darkness into his wonderful light.'",
+            "1 Peter 5:6 - 'Humble yourselves, therefore, under God’s mighty hand, that he may lift you up in due time.'",
+            "1 Peter 4:8 - 'Above all, love each other deeply, because love covers over a multitude of sins.'",
+            "1 Peter 3:14 - 'But even if you should suffer for what is right, you are blessed. 'Do not fear their threats; do not be frightened.''",
+            "1 Peter 5:7 - 'Cast all your anxiety on him because he cares for you.'",
+            "1 Peter 1:3 - 'Praise be to the God and Father of our Lord Jesus Christ! In his great mercy he has given us new birth into a living hope through the resurrection of Jesus Christ from the dead.'",
+            "1 Peter 2:24 - 'He himself bore our sins in his body on the cross, so that we might die to sins and live for righteousness; by his wounds you have been healed.'",
+            "1 Peter 3:15 - 'But in your hearts revere Christ as Lord. Always be prepared to give an answer to everyone who asks you to give the reason for the hope that you have. But do this with gentleness and respect.'",
+            "1 Peter 1:15-16 - 'But just as he who called you is holy, so be holy in all you do; for it is written: 'Be holy, because I am holy.''",
+            "1 Peter 4:10 - 'Each of you should use whatever gift you have received to serve others, as faithful stewards of God’s grace in its various forms.'"
+        };
         
-        String[][] combinedArray = {Gospel, NewGospel, NewGospel2, AdditionalVerse, Extra};
+        
+        String[][] combinedArray = {Gospel, NewGospel, NewGospel2, AdditionalVerse, Extra, Peter};
 
         
      
