@@ -73,18 +73,28 @@ public class MotivationBible {
             "1 Peter 1:15-16 - 'But just as he who called you is holy, so be holy in all you do; for it is written: 'Be holy, because I am holy.''",
             "1 Peter 4:10 - 'Each of you should use whatever gift you have received to serve others, as faithful stewards of God’s grace in its various forms.'"
         };
+        String[] Luke = {
+            "Luke 17:33 - \"Whosoever shall seek to save his life shall lose it; and whosoever shall lose his life shall preserve it.\"",
+            "Luke 19:10 - \"For the Son of man is come to seek and to save that which was lost.\"",
+            "Luke 21:33 - \"Heaven and earth shall pass away: but my words shall not pass away.\"",
+            "Luke 23:34 - \"Then said Jesus, Father, forgive them; for they know not what they do. And they parted his raiment, and cast lots.\"",
+            "Luke 24:36 - \"And as they thus spake, Jesus himself stood in the midst of them, and saith unto them, Peace be unto you.\"",
+            "Luke 1:37 - \"For with God nothing shall be impossible.\"",
+            "Luke 1:5 - \"There was in the days of Herod, the king of Judaea, a certain priest named Zacharias, of the course of Abia: and his wife was of the daughters of Aaron, and her name was Elisabeth.\"",
+            "Luke 1:6 - \"And they were both righteous before God, walking in all the commandments and ordinances of the Lord blameless.\"",
+            "Luke 1:7 - \"And they had no child, because that Elisabeth was barren, and they both were now well stricken in years.\"",
+            "Luke 1:8 - \"And it came to pass, that while he executed the priest's office before God in the order of his course.\""
+        };
         
         
-        String[][] combinedArray = {Gospel, NewGospel, NewGospel2, AdditionalVerse, Extra, Peter};
+        
+        String[][] combinedArray = {Gospel, NewGospel, NewGospel2, AdditionalVerse, Extra, Peter, Luke};
 
         
      
         // String[] name = {"Gojo", "Sukuna", "Megumi", "Yuuji", "Yuta"};
         Scanner scanner = new Scanner(System.in);
         File file = new File("C:\\Users\\user\\Downloads\\STUDENT FILES\\Adornado, William\\Java\\Java Verse\\MotivationBible.java");
-        // String folderPath = "C:/Users/user/Downloads/STUDENT FILES/Adornado, William/Java/Java Verse";
-
-        // File folder = new File(folderPath);
         do{
             System.out.println("\n======Welcome to my William Bible Verse=====");
             System.out.println("[1] Random Gospel");
@@ -98,7 +108,8 @@ public class MotivationBible {
                 
             
                 
-                System.out.println("\nGospel for today: " + randomGospel);
+                System.out.println("\u001B[33m" + "\nGospel for today: " + randomGospel + "\u001B[0m");
+
                     // randomIndex = random.nextInt(NewGospel.length);
                 // String randomNewGospel = NewGospel[randomIndex];
 
