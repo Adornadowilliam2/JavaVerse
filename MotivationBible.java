@@ -85,10 +85,23 @@ public class MotivationBible {
             "Luke 1:7 - \"And they had no child, because that Elisabeth was barren, and they both were now well stricken in years.\"",
             "Luke 1:8 - \"And it came to pass, that while he executed the priest's office before God in the order of his course.\""
         };
+        String[] Proverbs = {
+            "Proverbs 3:5 - 'Trust in the Lord with all your heart, and do not lean on your own understanding.'",
+            "Proverbs 16:3 - 'Commit your work to the Lord, and your plans will be established.'",
+            "Proverbs 15:1 - 'A soft answer turns away wrath, but a harsh word stirs up anger.'",
+            "Proverbs 16:9 - 'The heart of man plans his way, but the Lord establishes his steps.'",
+            "Proverbs 18:10 - 'The name of the Lord is a strong tower; the righteous man runs into it and is safe.'",
+            "Proverbs 20:22 - 'Do not say, 'I will repay evil'; wait for the Lord, and he will deliver you.'",
+            "Proverbs 27:17 - 'Iron sharpens iron, and one man sharpens another.'",
+            "Proverbs 29:11 - 'A fool gives full vent to his spirit, but a wise man quietly holds it back.'",
+            "Proverbs 31:30 - 'Charm is deceitful, and beauty is vain, but a woman who fears the Lord is to be praised.'",
+            "Proverbs 14:29 - 'Whoever is slow to anger has great understanding, but he who has a hasty temper exalts folly.'"
+        };
         
         
         
-        String[][] combinedArray = {Gospel, NewGospel, NewGospel2, AdditionalVerse, Extra, Peter, Luke};
+        
+        String[][] combinedArray = {Gospel, NewGospel, NewGospel2, AdditionalVerse, Extra, Peter, Luke, Proverbs};
 
         
      
