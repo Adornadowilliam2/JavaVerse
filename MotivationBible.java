@@ -97,11 +97,25 @@ public class MotivationBible {
             "Proverbs 31:30 - 'Charm is deceitful, and beauty is vain, but a woman who fears the Lord is to be praised.'",
             "Proverbs 14:29 - 'Whoever is slow to anger has great understanding, but he who has a hasty temper exalts folly.'"
         };
+
+        String[] Mark = {
+            "Mark 1:1: \"The beginning of the gospel of Jesus Christ, the Son of God\" .",
+            "Mark 1:6: \"And John was clothed with camel's hair, and with a girdle of a skin about his loins; and he did eat locusts and wild honey\" .",
+            "Mark 11:24: \"Therefore I say unto you, What things soever ye desire, when ye pray, believe that ye receive them, and ye shall have them\" .",
+            "Mark 9:23: \"Jesus said unto him, If thou canst believe, all things are possible to him that believeth\".",
+            "Mark 1:11: \"And there came a voice from heaven, saying, Thou art my beloved Son, in whom I am well pleased\" .",
+            "Mark 1:15: \"And saying, The time is fulfilled, and the kingdom of God is at hand: repent ye, and believe the gospel\" .",
+            "Mark 1:17: \"And Jesus said unto them, Come ye after me, and I will make you to become fishers of men\" .",
+            "Mark 10:17: \"And as he was setting out on his journey, a man ran up and knelt before him and asked him, Good Teacher, what must I do to inherit eternal life?\" .",
+            "Mark 10:21: \"Then Jesus beholding him loved him, and said unto him, One thing thou lackest: go thy way, sell whatsoever thou hast, and give to the poor, and thou shalt have treasure in heaven: and come, take up the cross, and follow me\" .",
+            "Mark 10:32: \"And they were in the way going up to Jerusalem; and Jesus went before them: and they were amazed; and as they followed, they were afraid. And he took again the twelve, and began to tell them what things should happen unto him\" ."
+        };
         
         
         
         
-        String[][] combinedArray = {Gospel, NewGospel, NewGospel2, AdditionalVerse, Extra, Peter, Luke, Proverbs};
+        
+        String[][] combinedArray = {Gospel, NewGospel, NewGospel2, AdditionalVerse, Extra, Peter, Luke, Proverbs, Mark};
 
         
      
