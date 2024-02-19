@@ -110,18 +110,28 @@ public class MotivationBible {
             "Mark 10:21: \"Then Jesus beholding him loved him, and said unto him, One thing thou lackest: go thy way, sell whatsoever thou hast, and give to the poor, and thou shalt have treasure in heaven: and come, take up the cross, and follow me\" .",
             "Mark 10:32: \"And they were in the way going up to Jerusalem; and Jesus went before them: and they were amazed; and as they followed, they were afraid. And he took again the twelve, and began to tell them what things should happen unto him\" ."
         };
+        String[] John = {
+            "John 10:29: 'My Father, who has given them to me, is greater than all; no one can snatch them out of my Father's hand.'",
+            "John 10:30: 'I and the Father are one.'",
+            "John 10:34: 'Jesus answered them, 'Is it not written in your Law, 'I have said you are gods",
+            "John 10:36: 'what about the one whom the Father set apart as his very own and sent into the world? Why then do you accuse me of blasphemy because I said, 'I am God's Son'?'",
+            "John 10:41: 'and many people came to him. They said, 'Though John never performed a sign, all that John said about this man was true.'",
+            "John 10:38: 'But if I do them, even though you do not believe me, believe the works, that you may know and understand that the Father is in me, and I in the Father.'",
+            "John 10:39: 'Again they tried to seize him, but he escaped their grasp.'",
+            "John 10:40: 'Then Jesus went back across the Jordan to the place where John had been baptizing in the early days. There he stayed.'",
+            "John 10:41: 'and many people came to him. They said, 'Though John never performed a sign, all that John said about this man was true.'",
+            "John 10:42: 'And in that place many believed in Jesus.'"
+        };
         
         
         
         
         
-        String[][] combinedArray = {Gospel, NewGospel, NewGospel2, AdditionalVerse, Extra, Peter, Luke, Proverbs, Mark};
+        
+        String[][] combinedArray = {Gospel, NewGospel, NewGospel2, AdditionalVerse, Extra, Peter, Luke, Proverbs, Mark, John};
 
-        
-     
-        // String[] name = {"Gojo", "Sukuna", "Megumi", "Yuuji", "Yuta"};
         Scanner scanner = new Scanner(System.in);
-        File file = new File("C:\\Users\\user\\Downloads\\STUDENT FILES\\Adornado, William\\Java\\Java Verse\\MotivationBible.java");
+        File file = new File("\"C:\\Users\\user\\Downloads\\STUDENT FILES\\Adornado, William\\Java\\Java-Verse\\MotivationBible.java\"");
         do{
             System.out.println("\n======Welcome to my William Bible Verse=====");
             System.out.println("[1] Random Gospel");
