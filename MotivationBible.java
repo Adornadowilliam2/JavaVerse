@@ -123,7 +123,7 @@ public class MotivationBible {
             "John 10:42: 'And in that place many believed in Jesus.'"
         };
         
-        String[] Verse = {
+        String[] verses = {
             "Joshua 1:9 - \"Have I not commanded you? Be strong and courageous. Do not be afraid; do not be discouraged, for the Lord your God will be with you wherever you go.\"",
             "Philippians 4:13 - \"I can do all things through Christ who strengthens me.\"",
             "Isaiah 41:10 - \"So do not fear, for I am with you; do not be dismayed, for I am your God. I will strengthen you and help you; I will uphold you with my righteous right hand.\"",
@@ -136,11 +136,13 @@ public class MotivationBible {
             "2 Corinthians 4:16-18 - \"Therefore we do not lose heart. Though outwardly we are wasting away, yet inwardly we are being renewed day by day. For our light and momentary troubles are achieving for us an eternal glory that far outweighs them all. So we fix our eyes not on what is seen, but on what is unseen since what is seen is temporary, but what is unseen is eternal.\""
         };
         
+       
         
         
         
         
-        String[][] combinedArray = {Gospel, NewGospel, NewGospel2, AdditionalVerse, Extra, Peter, Luke, Proverbs, Mark, John, Verse};
+        
+        String[][] combinedArray = {Gospel, NewGospel, NewGospel2, AdditionalVerse, Extra, Peter, Luke, Proverbs, Mark, John, verses};
 
         Scanner scanner = new Scanner(System.in);
         File file = new File("\"C:\\Users\\user\\Downloads\\STUDENT FILES\\Adornado, William\\Java\\Java-Verse\\MotivationBible.java\"");
