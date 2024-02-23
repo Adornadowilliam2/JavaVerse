@@ -135,6 +135,17 @@ public class MotivationBible {
             "Matthew 11:28 - \"Come to me, all you who are weary and burdened, and I will give you rest.\"",
             "2 Corinthians 4:16-18 - \"Therefore we do not lose heart. Though outwardly we are wasting away, yet inwardly we are being renewed day by day. For our light and momentary troubles are achieving for us an eternal glory that far outweighs them all. So we fix our eyes not on what is seen, but on what is unseen since what is seen is temporary, but what is unseen is eternal.\""
         };
+        String[] Corin = {"Philippians 4:13 - \"I can do all things through Christ who strengthens me.\", Motivation: With God's strength, I am capable of overcoming any obstacle that comes my way.",
+                  "2 Timothy 1:7 - \"For God has not given us a spirit of fear, but of power and of love and of a sound mind.\", Motivation: Fear is not from God, but rather, He has equipped us with power, love, and a sound mind to face challenges with confidence.",
+                  "Proverbs 3:5 - \"Trust in the Lord with all your heart, and lean not on your own understanding.\", Motivation: By placing our trust in God and surrendering our own understanding, we allow Him to guide us towards success and fulfillment.",
+                  "Colossians 3:23 - \"Whatever you do, work heartily, as for the Lord and not for men.\", Motivation: When we work with passion and dedication, recognizing that we are ultimately serving God, our efforts become meaningful and purposeful.",
+                  "Proverbs 16:3 - \"Commit your work to the Lord, and your plans will be established.\", Motivation: By entrusting our endeavors to God, He will ensure that our plans are successful and aligned with His will.",
+                  "Deuteronomy 31:6 - \"Be strong and courageous. Do not be afraid or terrified because of them, for the Lord your God goes with you; he will never leave you nor forsake you.\", Motivation: In times of difficulty, we can find strength and courage knowing that God is always by our side, providing us with unwavering support.",
+                  "Philippians 4:13 - \"I can do all things through him who strengthens me.\", Motivation: With God's strength within us, there is no limit to what we can achieve. We are capable of greatness.",
+                  "Isaiah 40:31 - \"But those who hope in the Lord will renew their strength. They will soar on wings like eagles; they will run and not grow weary, they will walk and not be faint.\", Motivation: When we place our hope in God, He renews our strength, enabling us to persevere and achieve our goals without growing weary.",
+                  "Philippians 4:6 - \"Do not be anxious about anything, but in every situation, by prayer and petition, with thanksgiving, present your requests to God.\", Motivation: Instead of being consumed by worry, we can find peace and comfort by bringing our concerns to God through prayer, trusting in His divine guidance.",
+                  "Romans 8:28 - \"And we know that in all things God works for the good of those who love him, who have been called according to his purpose.\", Motivation: No matter the circumstances, we can find solace in knowing that God is working everything together for our ultimate good, according to His purpose."};
+
         
        
         
@@ -142,7 +153,7 @@ public class MotivationBible {
         
         
         
-        String[][] combinedArray = {Gospel, NewGospel, NewGospel2, AdditionalVerse, Extra, Peter, Luke, Proverbs, Mark, John, verses};
+        String[][] combinedArray = {Gospel, NewGospel, NewGospel2, AdditionalVerse, Extra, Peter, Luke, Proverbs, Mark, John, verses, Corin};
 
         Scanner scanner = new Scanner(System.in);
         File file = new File("\"C:\\Users\\user\\Downloads\\STUDENT FILES\\Adornado, William\\Java\\Java-Verse\\MotivationBible.java\"");
