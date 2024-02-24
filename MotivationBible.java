@@ -146,14 +146,26 @@ public class MotivationBible {
                   "Philippians 4:6 - \"Do not be anxious about anything, but in every situation, by prayer and petition, with thanksgiving, present your requests to God.\", Motivation: Instead of being consumed by worry, we can find peace and comfort by bringing our concerns to God through prayer, trusting in His divine guidance.",
                   "Romans 8:28 - \"And we know that in all things God works for the good of those who love him, who have been called according to his purpose.\", Motivation: No matter the circumstances, we can find solace in knowing that God is working everything together for our ultimate good, according to His purpose."};
 
-        
+                  String[] BibleVerse = {
+                    "Jeremiah 1:4-5: \"The word of the LORD came to me, saying, 'Before I formed you in the womb I knew you; before you were born I sanctified you; I ordained you a prophet to the nations.'\"",
+                    "Jeremiah 1:11: \"Moreover the word of the LORD came to me, saying, 'Jeremiah, what do you see?' And I said, 'I see a branch of an almond tree.'\"",
+                    "Jeremiah 7:1: \"The word that came to Jeremiah from the LORD, saying, 'Stand in the gate of the LORD's house, and proclaim there this word, and say, \"Hear the word of the LORD, all you of Judah who enter in at these gates to worship the LORD!\"'\"",
+                    "Jeremiah 11:1-2: \"The word that came to Jeremiah from the LORD, saying, 'Hear the words of this covenant, and speak to the men of Judah and to the inhabitants of Jerusalem.'\"",
+                    "Jeremiah 17:5: \"Thus says the LORD: 'Cursed is the man who trusts in man and makes flesh his strength, whose heart departs from the LORD.'\"",
+                    "Jeremiah 20:7: \"O LORD, You induced me, and I was persuaded; You are stronger than I, and have prevailed. I am in derision daily; everyone mocks me.\"",
+                    "Jeremiah 29:11: \"For I know the thoughts that I think toward you, says the LORD, thoughts of peace and not of evil, to give you a future and a hope.\"",
+                    "Jeremiah 31:3: \"The LORD has appeared of old to me, saying: 'Yes, I have loved you with an everlasting love; therefore with lovingkindness I have drawn you.'\"",
+                    "Jeremiah 32:27: \"Behold, I am the LORD, the God of all flesh. Is there anything too hard for Me?\"",
+                    "Jeremiah 33:3: \"Call to Me, and I will answer you, and show you great and mighty things, which you do not know.\""
+                };
+                
        
         
         
         
         
         
-        String[][] combinedArray = {Gospel, NewGospel, NewGospel2, AdditionalVerse, Extra, Peter, Luke, Proverbs, Mark, John, verses, Corin};
+        String[][] combinedArray = {Gospel, NewGospel, NewGospel2, AdditionalVerse, Extra, Peter, Luke, Proverbs, Mark, John, verses, Corin, BibleVerse};
 
         Scanner scanner = new Scanner(System.in);
         File file = new File("\"C:\\Users\\user\\Downloads\\STUDENT FILES\\Adornado, William\\Java\\Java-Verse\\MotivationBible.java\"");
